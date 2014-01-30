@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Philip Mateescu</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" />
+		<style type="text/css">
+			.row.co {
+				margin-top: 3em;
+			}
+			.row.co-desc {
+				margin-top: 1em;
+			}
+			.co {
+				font-size: large;
+			}
+			.stat-number {
+				font-size: 300%;
+				font-weight: bold;
+			}
+			.stat-name {
+				color: #888;
+				padding-left: 0.5em;
+			}
+			.co-desc { color: #333 !important; }
+			.boa { color: #f00; }
+			.boa .co-name {
+				background-color: #f00;
+				color: #fff;
+				border: 1px solid #f00;
+			}
+			.boa .co-pos, .boa .years { border: 1px solid #f00; }
+			.boa .stat-number { color: #f00 }
+			.boa .stat-number.stat-em { color: #0067B1 }
+			.boa .row.stat { 
+				background: url(resume-boa.png) repeat-x;
+			}
+
+			.esi { color: #004793; }
+			.esi .co-name {
+				background-color: #004793;
+				color: #fff;
+				border: 1px solid #004793;
+			}
+			.esi .co-pos, .esi .years { border: 1px solid #004793; }
+			.esi .row.stat { background: url(resume-esi.png) repeat-x 0 10px; }
+			.esi .stat-number.stat-em { color: #f02d13; }
+
+			.bp { color: #007F00; }
+			.bp .co-name {
+				background-color: #007F00;
+				color: #fff;
+				border: 1px solid #007F00;
+			}
+			.bp .co-pos, .bp .years { border: 1px solid #007F00; }
+			.bp .row.stat { background: url(resume-bp.jpg) repeat-x; }
+			.bp .stat-number { color: #98ce00; }
+			.bp .stat-em { color: #007F00; }
+
+			.dc { color: #4088bf; }
+			.dc .co-name {
+				background-color: #4088bf;
+				color: #fff;
+				border: 1px solid #4088bf;
+			}
+			.dc .co-pos, .dc .years { border: 1px solid #4088bf; }
+			.dc .row.stat { background: url(resume-dc.jpg) repeat-x; }
+			.dc .stat-name { color: #222; }
+			.dc .stat-number { color: #00b6ff; }
+			.dc .stat-number.stat-em { color: #4088bf; }
+			.old { color: #888; }
+			.old .co-name {
+				background-color: #ccc;
+				color: #888;
+				border: 1px solid #ccc;
+			}
+			.old .co-pos, .old .years { border: 1px solid #ccc; }
+			.old .stat-number { color: #ccc; }
+			.old .stat-number.stat-em { color: #111; }
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Philip Mateescu</h1>
+
+
+			<div class="boa">
+				<div class="row co">
+					<div class="col-sm-3 years">
+						2009-2011 2012-2014 
+					</div>
+					<div class="col-sm-5 co-name">Bank of America Merrill Lynch</div>
+					<div class="col-sm-4 co-pos">Technical Lead</div>
+				</div>
+
+				<div class="row stat">
+					<div class="col-sm-offset-1 col-sm-2">
+						<div class="stat-number text-left">8</div>
+						<div class="stat-name text-left">Devs, BAs, &amp; QAs</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="stat-number text-left">15</div>
+						<div class="stat-name text-left">Markets</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="stat-number text-left">20,000</div>
+						<div class="stat-name text-left">Trades daily</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="stat-number stat-em text-left">$1.2+ billions</div>
+						<div class="stat-name text-left">Processed yearly</div>
+					</div>
+				</div>
+
+				<div class="row co-desc">
+					<div class="col-sm-offset-1 col-sm-10">
+						<p>Provided Technical Leadership for the Trader Tools group. Re-engineered the Trade Execution product to expand from 2 to 15 markets, from one region to global reach. At the end of my contract, 95% of company's trades, and 100% of the sales trades (flow business) were captured and routed through the app my team built.</p>
+						<p>Interfaced with stakeholders across trading and sales desks (flow business). Built infrastructure to interconnect with risk systems (OpenLink Endur, SolArc, CTP), pricing systems, market data, and clearing houses. Supported trade activity in financial and physical instruments, including natural gas, crude oil, power, coal, base and precious metals.</p>
+						<p>The desktop client (.NET, Infragistics controls) replaced 5 other trade capture interfaces with a streamlined and homogenized UI, allowing per-user and per-desk customization of defaults, rules, and fast turn-around on implementing custom instruments. Trade input speed improved by a factor of 3x and reduced communication and risk assessment delays between trade and sales desks from <em>T+1</em> to <em>mere minutes</em>. Interfaced with established risk and settlement systems (OpenLink Endur, SolArc, CTP), market data (Index Online), and clearing gateways (ICE, X-Trader, Trayport).</p>
+					</div>
+				</div>
+
+				<div class="row co-tech">
+					<div class="col-sm-offset-1 col-sm-10">
+						<span class="label label-primary">Commodities Trading</span>
+						<span class="label label-primary">Financial and Physical Instruments</span>
+						<span class="label label-primary">Energy Trading</span>
+						<span class="label label-primary">Trade Execution</span>
+						<span class="label label-primary">Front Office</span>
+						<span class="label label-primary">Sales/Flow Business</span>
+						<span class="label label-info">.NET 4.0</span>
+						<span class="label label-info">.NET 3.5</span>
+						<span class="label label-info">C#</span>
+						<span class="label label-info">WinForms</span>
+						<span class="label label-info">MVVM</span>
+						<span class="label label-default">WCF</span>
+						<span class="label label-default">MS SQL Server</span>
+						<span class="label label-default">Tibco EMS</span>
+						<span class="label label-default">Infragistics</span>
+						<span class="label label-default">OpenLink Endur</span>
+						<span class="label label-default">Oracle</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="esi">
+				<div class="row co">
+					<div class="col-sm-3 years">
+						2012
+					</div>
+					<div class="col-sm-5 co-name">Energy Solutions International</div>
+					<div class="col-sm-4 co-pos">Senior Software Consultant</div>
+				</div>
+
+				<div class="row stat">
+					<div class="col-sm-offset-1 col-sm-2">
+						<div class="stat-number stat-em text-left">150 ms</div>
+						<div class="stat-name text-left">Average API response</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="stat-number text-left">500 ms</div>
+						<div class="stat-name text-left">Average page load</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="stat-number text-left">$40.3 billion</div>
+						<div class="stat-name text-left">Estimated market size</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="stat-number text-left">6</div>
+						<div class="stat-name text-left">Products to be built on top of platform</div>
+					</div>
+				</div>
+
+				<div class="row co-desc">
+					<div class="col-sm-offset-1 col-sm-10">
+						<p>Built the base for ESI's next generation energy trading platform: powerful, fast, scalable, and customizable. Good looking UI too.</p>
+						<p>The web application platform was designed from the ground-up to function as a public ReSTful API into a pluggable back-end business and persistence layer (.NET MVC, JSON), allowing for independent and simultaneous development of front-end UI (HTML, Bootstrap + jQuery + Kendo) and business rules engine by separate development teams.</p>
+					</div>
+				</div>
+
+				<div class="row co-tech">
+					<div class="col-sm-offset-1 col-sm-10">
+						<span class="label label-primary">Energy Trading</span>
+						<span class="label label-primary">Gas Production and Exploration Support</span>
+						<span class="label label-primary">Pipeline Management</span>
+						<span class="label label-primary">Gas Trading</span>
+						<span class="label label-info">.NET 4.0</span>
+						<span class="label label-info">C#</span>
+						<span class="label label-info">ASP.NET MVC 4</span>
+						<span class="label label-info">ReST API</span>
+						<span class="label label-info">JavaScript</span>
+						<span class="label label-default">Bootstrap</span>
+						<span class="label label-default">KnockOut JS</span>
+						<span class="label label-default">jQuery</span>
+						<span class="label label-default">Kendo UI</span>
+						<span class="label label-default">HTML</span>
+						<span class="label label-default">CSS</span>
+						<span class="label label-default">JSON</span>
+						<span class="label label-default">AutoFac</span>
+						<span class="label label-default">MS SQL Server</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="bp">
+				<div class="row co">
+					<div class="col-sm-3 years">
+						2008-2009
+					</div>
+					<div class="col-sm-5 co-name">BP</div>
+					<div class="col-sm-4 co-pos">Senior Software Consultant</div>
+				</div>
+
+				<div class="row stat">
+					<div class="col-sm-offset-1 col-sm-3">
+						<div class="stat-number text-left">$62 million</div>
+						<div class="stat-name text-left">Cost of project</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="stat-number text-left">42</div>
+						<div class="stat-name text-left">Devs, QAs, BAs</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="stat-number stat-em text-left">87%</div>
+						<div class="stat-name text-left">Test coverage on own code</div>
+					</div>
+				</div>
+
+
+				<div class="row co-desc">
+					<div class="col-sm-offset-1 col-sm-10">
+						<p>Working on a comprehensive Gas Trading System for the North America Gas & Power division. Contributed to all major modules and sub-systems. Engineered, developed and provided architectural proof of concepts for next-gen solutions.</p>
+					</div>
+				</div>
+
+				<div class="row co-tech">
+					<div class="col-sm-offset-1 col-sm-10">
+						<span class="label label-primary">Nominations</span>
+						<span class="label label-primary">Gas Scheduling</span>
+						<span class="label label-primary">Settlements</span>
+						<span class="label label-info">.NET 3.5</span>
+						<span class="label label-info">C#</span>
+						<span class="label label-info">WinForms</span>
+						<span class="label label-default">WCF</span>
+						<span class="label label-default">MS SQL Server</span>
+						<span class="label label-default">Tibco RV</span>
+						<span class="label label-default">DevExpress</span>
+						<span class="label label-default">OpenLink Endur</span>
+						<span class="label label-default">Oracle</span>
+						<span class="label label-default">SAP</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="dc">
+				<div class="row co">
+					<div class="col-sm-3 years">
+						2006-2008
+					</div>
+					<div class="col-sm-5 co-name">DataCert</div>
+					<div class="col-sm-4 co-pos">Senior Software Consultant</div>
+				</div>
+
+				<div class="row stat">
+					<div class="col-sm-offset-1 col-sm-2">
+						<div class="stat-number">92%</div>
+						<div class="stat-name">of Global AmLaw 100</div>
+					</div>
+					<div class="col-sm-offset-1 col-sm-2">
+						<div class="stat-number stat-em">5,000,000</div>
+						<div class="stat-name">Invoices processed</div>
+					</div>
+					<div class="col-sm-offset-1 col-sm-2">
+						<div class="stat-number">140</div>
+						<div class="stat-name">Countries submitting</div>
+					</div>
+				</div>
+
+				<div class="row co-desc">
+					<div class="col-sm-offset-1 col-sm-10">
+						<p>Senior Software Engineered evolving into a Principal Developer/ Technical Architect.</p>
+						<p>Responsible for architecture and mentoring. Enjoyed refactoring old code and coding new features just the same.</p>
+					</div>
+				</div>
+
+				<div class="row co-tech">
+					<div class="col-sm-offset-1 col-sm-10">
+						<span class="label label-primary">Legal Spend Management</span>
+						<span class="label label-primary">Legal Matter Management</span>
+						<span class="label label-primary">Document Workflow</span>
+						<span class="label label-primary">Discovery &amp; Production Support</span>
+						<span class="label label-info">.NET</span>
+						<span class="label label-info">C#</span>
+						<span class="label label-info">Web</span>
+						<span class="label label-default">MS SQL Server</span>
+						<span class="label label-default">MS Reporting Services</span>
+						<span class="label label-default">MS SQL Server Analysis Services</span>
+						<span class="label label-default">Python</span>
+						<span class="label label-default">Django</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="old">
+				<div class="row co">
+					<div class="col-sm-3 years">
+						2002-2006
+					</div>
+					<div class="col-sm-5 co-name">Novosad Hayes Associates</div>
+					<div class="col-sm-4 co-pos">Senior Software Consultant</div>
+				</div>
+
+				<div class="row co-desc">
+					<div class="col-sm-offset-1 col-sm-10">
+						<p>Participated in the development of a large scale application for managing Veteran centers. Led the development efforts for a comprehensive solution to support financial arbitration and litigation efforts.</p>
+					</div>
+				</div>
+
+				<div class="row co-tech">
+					<div class="col-sm-offset-1 col-sm-10">
+						<span class="label label-primary">Litigation Support System</span>
+						<span class="label label-primary">Discovery &amp; Document Production</span>
+						<span class="label label-primary">OCR Automation/span>
+						<span class="label label-primary">Document Management</span>
+						<span class="label label-default">.NET</span>
+						<span class="label label-default">PHP</span>
+						<span class="label label-default">JavaScript</span>
+						<span class="label label-default">HTML</span>
+						<span class="label label-default">CSS</span>
+						<span class="label label-default">MS SQL Server</span>
+						<span class="label label-default">MySQL</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="old">
+				<div class="row co">
+					<div class="col-sm-3 years">
+						2001-2002
+					</div>
+					<div class="col-sm-5 co-name">Dynasty Technologies</div>
+					<div class="col-sm-4 co-pos">Senior Software Engineer, Principal Developer</div>
+				</div>
+
+				<div class="row co-desc">
+					<div class="col-sm-offset-1 col-sm-10">
+						<p>C, C++, and .Net consulting.</p>
+					</div>
+				</div>
+
+				<div class="row co-tech">
+					<div class="col-sm-offset-1 col-sm-10">
+						<span class="label label-default">.NET</span>
+						<span class="label label-default">C</span>
+						<span class="label label-default">C++</span>
+						<span class="label label-default">TCP/IP</span>
+						<span class="label label-default">MS SQL Server</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="old">
+				<div class="row co">
+					<div class="col-sm-3 years">
+						1998-2001
+					</div>
+					<div class="col-sm-5 co-name">Akela</div>
+					<div class="col-sm-4 co-pos">Senior Software Engineer, Team Lead</div>
+				</div>
+
+				<div class="row co-desc">
+					<div class="col-sm-offset-1 col-sm-10">
+						<p>Web Development using Microsoft technologies.</p>
+					</div>
+				</div>
+
+				<div class="row co-tech">
+					<div class="col-sm-offset-1 col-sm-10">
+						<span class="label label-default">.NET</span>
+						<span class="label label-default">MS SQL Server</span>
+						<span class="label label-default">Oracle</span>
+						<span class="label label-default">JavaScript</span>
+						<span class="label label-default">HTML</span>
+						<span class="label label-default">CSS</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="old">
+				<div class="row co">
+					<div class="col-sm-3 years">
+						1996-1998
+					</div>
+					<div class="col-sm-5 co-name">Crinsoft</div>
+					<div class="col-sm-4 co-pos">Software Engineer</div>
+				</div>
+
+				<div class="row co-desc">
+					<div class="col-sm-offset-1 col-sm-10">
+						<p>Web and Desktop Development using Microsoft technologies.</p>
+					</div>
+				</div>
+
+				<div class="row co-tech">
+					<div class="col-sm-offset-1 col-sm-10">
+						<span class="label label-default">Microsoft Software Stack</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
