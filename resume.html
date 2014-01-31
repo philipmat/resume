@@ -14,6 +14,11 @@
 			.co {
 				font-size: large;
 			}
+			.panel-subtitle {
+				font-size: 14px;
+				margin-top: 2px;
+				margin-bottom: 0;
+			}
 			.stat-number {
 				font-size: 300%;
 				font-weight: bold;
@@ -114,9 +119,24 @@
 
 				<div class="row co-desc">
 					<div class="col-sm-offset-1 col-sm-10">
-						<p>Provided Technical Leadership for the Trader Tools group. Re-engineered the Trade Execution product to expand from 2 to 15 markets, from one region to global reach. At the end of my contract, 95% of company's trades, and 100% of the sales trades (flow business) were captured and routed through the app my team built.</p>
-						<p>Interfaced with stakeholders across trading and sales desks (flow business). Built infrastructure to interconnect with risk systems (OpenLink Endur, SolArc, CTP), pricing systems, market data, and clearing houses. Supported trade activity in financial and physical instruments, including natural gas, crude oil, power, coal, base and precious metals.</p>
-						<p>The desktop client (.NET, Infragistics controls) replaced 5 other trade capture interfaces with a streamlined and homogenized UI, allowing per-user and per-desk customization of defaults, rules, and fast turn-around on implementing custom instruments. Trade input speed improved by a factor of 3x and reduced communication and risk assessment delays between trade and sales desks from <em>T+1</em> to <em>mere minutes</em>. Interfaced with established risk and settlement systems (OpenLink Endur, SolArc, CTP), market data (Index Online), and clearing gateways (ICE, X-Trader, Trayport).</p>
+
+						<div class="alert alert-info">
+							<b>Remove this dumb blue box!</b><br>
+							In this section, you mix sentence fragments and sentences. I
+							would convert all of them to one or the other; my preference, as
+							you would guess, leans toward full sentences. So, that's what I
+							did, here.
+						</div>
+
+						<p>As the technical leader of the Trader Tools group, a development team peaking at 12 developers and 1 QA, I split my time between three primary activities:</p>
+						<ul>
+						<li>participating in functional requirements design sessions with stakeholders in the trading and sales organizations;</li>
+						<li>designing and programming the most complex parts of the application; and,</li>
+						<li>providing design, programming, and testing guidance for the members of my team.</li>
+						</ul>
+						<p>We re-engineered the Trade Execution product from serving two commodities desks to 15 desks including natural gas, crude oil, power, coal, and base and precious metals. Originally implemented to serve the commodities traders in the Houston office, our changes allowed us to globally distribute the application to support the trade activity of both financial and physical instruments. At the end of my contract, 95% of company's trades, and 100% of the sales' trades (flow business) were captured and routed through my team's app.</p>
+						<p>The application requires integration with both upstream and downstream systems. We built a versatile and extensible integration framework to allow us to syndicate the users' application data to risk systems (including OpenLink Endur, SolArc, and CTP), pricing systems, market data (Index Online), and clearing houses (ICE, X-Trader, and Trayport). The integration framework also subscribed to changes in the external systems using file system watchers, database pollers, and by subscribing to events over TIBCO Rendezvous. The direct result of these improvements allowed trade and sales desks to reduce their wait on the risk assessment of their positions from waiting on the next day's calculations to mere minutes.</p>
+						<p>The desktop client, written in C# and using Infragistics controls, replaced five other trade capture interfaces. We built our own Winforms-based MVVM UI framework to streamline the develop of a homogenized user interface. Due to my work on defining a set of consistent interface guidelines, the business realized a 3x performance increase in trade entry.</p>
 					</div>
 				</div>
 
@@ -174,8 +194,16 @@
 
 				<div class="row co-desc">
 					<div class="col-sm-offset-1 col-sm-10">
-						<p>Built the base for ESI's next generation energy trading platform: powerful, fast, scalable, and customizable. Good looking UI too.</p>
-						<p>The web application platform was designed from the ground-up to function as a public ReSTful API into a pluggable back-end business and persistence layer (.NET MVC, JSON), allowing for independent and simultaneous development of front-end UI (HTML, Bootstrap + jQuery + Kendo) and business rules engine by separate development teams.</p>
+
+						<div class="alert alert-info">
+							<b>Remove this dumb blue box!</b><br>
+							Ok. So, I took the last section and turned it into full sentences. We should do it here, too. Also, these guys use Pipeline Scheduler from ESI. They have a relationship with them and, funny enough, it's not all great. :) Finally, I don't know
+							if I added anything of value, here. 
+						</div>
+
+						<p>As a consultant to ESI's energy trading group, I partly led and fully participated in the effort to build the base for ESI's next-generation, energy-trading platform. This moved the product from an application with high maintenance costs to a powerful, fast, scalable, and customizable Web-based application.</p>
+						<p>I made a good-looking UI too.</p>
+						<p>We designed the web application platform from the ground-up to function as a public ReSTful API communicating with the JSON message format into a pluggable back-end business and persistence layer built with ASP.NET MVC. This allowed us to independently and simultaneously develop the HTML, Bootstrap, jQuery, Kendo-based user interface of the products and the business rules engine that provided the commercial value of the products.</p>
 					</div>
 				</div>
 
@@ -205,6 +233,11 @@
 
 			<div class="bp">
 				<div class="row co">
+
+			<div class="alert alert-danger">
+				<b>Remove this dumb, red box.</b><br>I think the following two positions have rather anemic descriptions. I would recommend giving them a little more love. Of course, there may not be that much more to add to the BP description... :) 
+			</div>
+
 					<div class="col-sm-3 years">
 						2008-2009
 					</div>
@@ -230,7 +263,7 @@
 
 				<div class="row co-desc">
 					<div class="col-sm-offset-1 col-sm-10">
-						<p>Working on a comprehensive Gas Trading System for the North America Gas & Power division. Contributed to all major modules and sub-systems. Engineered, developed and provided architectural proof of concepts for next-gen solutions.</p>
+						<p>Working on a comprehensive Gas Trading System for the North America Gas &amp; Power division. Contributed to all major modules and sub-systems. Engineered, developed and provided architectural proof of concepts for next-gen solutions.</p>
 					</div>
 				</div>
 
@@ -259,21 +292,21 @@
 						2006-2008
 					</div>
 					<div class="col-sm-5 co-name">DataCert</div>
-					<div class="col-sm-4 co-pos">Senior Software Consultant</div>
+					<div class="col-sm-4 co-pos">Principal Developer</div>
 				</div>
 
 				<div class="row stat">
 					<div class="col-sm-offset-1 col-sm-2">
 						<div class="stat-number">92%</div>
-						<div class="stat-name">of Global AmLaw 100</div>
+						<div class="stat-name text-left">of Global AmLaw 100</div>
 					</div>
 					<div class="col-sm-offset-1 col-sm-2">
 						<div class="stat-number stat-em">5,000,000</div>
-						<div class="stat-name">Invoices processed</div>
+						<div class="stat-name text-left">Invoices processed</div>
 					</div>
 					<div class="col-sm-offset-1 col-sm-2">
 						<div class="stat-number">140</div>
-						<div class="stat-name">Countries submitting</div>
+						<div class="stat-name text-left">Countries submitting</div>
 					</div>
 				</div>
 
@@ -305,110 +338,97 @@
 
 			<div class="old">
 				<div class="row co">
-					<div class="col-sm-3 years">
-						2002-2006
-					</div>
-					<div class="col-sm-5 co-name">Novosad Hayes Associates</div>
-					<div class="col-sm-4 co-pos">Senior Software Consultant</div>
-				</div>
-
-				<div class="row co-desc">
-					<div class="col-sm-offset-1 col-sm-10">
-						<p>Participated in the development of a large scale application for managing Veteran centers. Led the development efforts for a comprehensive solution to support financial arbitration and litigation efforts.</p>
+					<div class="alert alert-danger">
+						<b>Remove this dumb, red box.</b><br>Down here, I think that you should really change format since you've stopped describing. And, that makes sense. They were over a decade ago. So, maybe cards?
 					</div>
 				</div>
-
-				<div class="row co-tech">
-					<div class="col-sm-offset-1 col-sm-10">
-						<span class="label label-primary">Litigation Support System</span>
-						<span class="label label-primary">Discovery &amp; Document Production</span>
-						<span class="label label-primary">OCR Automation/span>
-						<span class="label label-primary">Document Management</span>
-						<span class="label label-default">.NET</span>
-						<span class="label label-default">PHP</span>
-						<span class="label label-default">JavaScript</span>
-						<span class="label label-default">HTML</span>
-						<span class="label label-default">CSS</span>
-						<span class="label label-default">MS SQL Server</span>
-						<span class="label label-default">MySQL</span>
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h1 class="panel-title">Novosad Hayes Associates</h1>
+								<h2 class="panel-subtitle">Senior Software Consultant</h2>
+							</div>
+							<div class="panel-body">
+								<p>Participated in the development of a large scale application for managing Veteran centers. Led the development efforts for a comprehensive solution to support financial arbitration and litigation efforts.</p>
+								<div class="row co-tech">
+									<div class="col-sm-10">
+										<span class="label label-primary">Litigation Support System</span>
+										<span class="label label-primary">Discovery &amp; Document Production</span>
+										<span class="label label-primary">OCR Automation</span>
+										<span class="label label-primary">Document Management</span>
+										<span class="label label-default">.NET</span>
+										<span class="label label-default">PHP</span>
+										<span class="label label-default">JavaScript</span>
+										<span class="label label-default">HTML</span>
+										<span class="label label-default">CSS</span>
+										<span class="label label-default">MS SQL Server</span>
+										<span class="label label-default">MySQL</span>
+									</div>
+								</div>
+							</div>
+							<div class="panel-footer">2002-2006</div>
+						</div>
 					</div>
-				</div>
-			</div>
-
-
-			<div class="old">
-				<div class="row co">
-					<div class="col-sm-3 years">
-						2001-2002
+					<div class="col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h1 class="panel-title">Dynasty Technologies</h1>
+								<h2 class="panel-subtitle">Principal Developer</h2>
+							</div>
+							<div class="panel-body">
+								<p>C, C++, and .NET consulting.</p>
+								<div class="row co-tech">
+									<div class="col-sm-10">
+										<span class="label label-default">.NET</span>
+										<span class="label label-default">C</span>
+										<span class="label label-default">C++</span>
+										<span class="label label-default">TCP/IP</span>
+										<span class="label label-default">MS SQL Server</span>
+									</div>
+								</div>
+							</div>
+							<div class="panel-footer">2001-2002</div>
+						</div>
 					</div>
-					<div class="col-sm-5 co-name">Dynasty Technologies</div>
-					<div class="col-sm-4 co-pos">Senior Software Engineer, Principal Developer</div>
-				</div>
-
-				<div class="row co-desc">
-					<div class="col-sm-offset-1 col-sm-10">
-						<p>C, C++, and .Net consulting.</p>
+					<div class="col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h1 class="panel-title">Akela</h1>
+								<h2 class="panel-subtitle">Team Lead</h2>
+							</div>
+							<div class="panel-body">
+								<p>Web Development using Microsoft technologies.</p>
+								<div class="row co-tech">
+									<div class="col-sm-10">
+										<span class="label label-default">.NET</span>
+										<span class="label label-default">MS SQL Server</span>
+										<span class="label label-default">Oracle</span>
+										<span class="label label-default">JavaScript</span>
+										<span class="label label-default">HTML</span>
+										<span class="label label-default">CSS</span>
+									</div>
+								</div>
+							</div>
+							<div class="panel-footer">1998-2001</div>
+						</div>
 					</div>
-				</div>
-
-				<div class="row co-tech">
-					<div class="col-sm-offset-1 col-sm-10">
-						<span class="label label-default">.NET</span>
-						<span class="label label-default">C</span>
-						<span class="label label-default">C++</span>
-						<span class="label label-default">TCP/IP</span>
-						<span class="label label-default">MS SQL Server</span>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="old">
-				<div class="row co">
-					<div class="col-sm-3 years">
-						1998-2001
-					</div>
-					<div class="col-sm-5 co-name">Akela</div>
-					<div class="col-sm-4 co-pos">Senior Software Engineer, Team Lead</div>
-				</div>
-
-				<div class="row co-desc">
-					<div class="col-sm-offset-1 col-sm-10">
-						<p>Web Development using Microsoft technologies.</p>
-					</div>
-				</div>
-
-				<div class="row co-tech">
-					<div class="col-sm-offset-1 col-sm-10">
-						<span class="label label-default">.NET</span>
-						<span class="label label-default">MS SQL Server</span>
-						<span class="label label-default">Oracle</span>
-						<span class="label label-default">JavaScript</span>
-						<span class="label label-default">HTML</span>
-						<span class="label label-default">CSS</span>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="old">
-				<div class="row co">
-					<div class="col-sm-3 years">
-						1996-1998
-					</div>
-					<div class="col-sm-5 co-name">Crinsoft</div>
-					<div class="col-sm-4 co-pos">Software Engineer</div>
-				</div>
-
-				<div class="row co-desc">
-					<div class="col-sm-offset-1 col-sm-10">
-						<p>Web and Desktop Development using Microsoft technologies.</p>
-					</div>
-				</div>
-
-				<div class="row co-tech">
-					<div class="col-sm-offset-1 col-sm-10">
-						<span class="label label-default">Microsoft Software Stack</span>
+					<div class="col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h1 class="panel-title">Crinsoft</h1>
+								<h2 class="panel-subtitle">Software Engineer</h2>
+							</div>
+							<div class="panel-body">
+								<p>Web and desktop development using Microsoft technologies.</p>
+								<div class="row co-tech">
+									<div class="col-sm-10">
+										<span class="label label-default">Microsoft Software Stack</span>
+									</div>
+								</div>
+							</div>
+							<div class="panel-footer">1996-1998</div>
+						</div>
 					</div>
 				</div>
 			</div>
