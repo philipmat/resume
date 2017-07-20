@@ -3,8 +3,8 @@
 	<head>
 		<title>Philip Mateescu</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" />
-		<!-- <link href="bootstrap-3.1.0-resume.min.css" rel="stylesheet" /> -->
+		<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" /> -->
+		 <link href="bootstrap-3.1.0-resume.min.css" rel="stylesheet" /> 
 		<style>
 			.row.co {
 				margin-top: 3em;
@@ -30,7 +30,22 @@
 				color: #888;
 			}
 			.co-desc { color: #333 !important; }
-			.boa { color: #f00; page-break-after: always }
+			.epco { color: #002147; color: #00ccff; color: #5280b3 }
+
+			.epco { color: #184172; }
+			.epco .co { border-color: #184172 }
+			.epco .co-name {
+				background-color: #184172;
+				color: #fff;
+			}
+			.epco .co-pos, .epco .years {}
+			.epco .stat-number { color: #5280b3 }
+			.epco .stat-number.stat-em { color: #184172 }
+			.epco .row.stat { 
+				background: url(resume-epco.png) repeat;
+			}
+
+			.boa { color: #f00; }
 			.boa .co { border-color: #f00 }
 			.boa .co-name {
 				background-color: #f00;
@@ -64,17 +79,6 @@
 			.bp .stat-number { color: #98ce00; }
 			.bp .stat-em { color: #007F00; }
 
-			.dc { color: #4088bf; }
-			.dc .co { border-color: #4088bf; }
-			.dc .co-name {
-				background-color: #4088bf;
-				color: #fff;
-			}
-			.dc .co-pos, .dc .years {}
-			.dc .row.stat { background: url(resume-dc.jpg) repeat; }
-			.dc .stat-name { color: #222; }
-			.dc .stat-number { color: #00b6ff; }
-			.dc .stat-number.stat-em { color: #4088bf; }
 			.old { color: #888; }
 			.old .co-name {
 				background-color: #ccc;
@@ -113,6 +117,97 @@
 					</ul>
 				</div>
 			</div>
+
+			<div class="epco">
+				<div class="row co">
+					<div class="col-sm-3 years">
+						2014-2017
+					</div>
+					<div class="col-sm-5 co-name">Enterprise Products</div>
+					<div class="col-sm-4 co-pos">Technical Lead</div>
+				</div>
+
+				<div class="row stat">
+					<div class="col-sm-offset-1 col-sm-2">
+						<div class="stat-number text-left">3.8M</div>
+						<div class="stat-name text-left">Lines of Code across 6 languages</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="stat-number text-left">5,000</div>
+						<div class="stat-name text-left">Personal commits</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="stat-number text-left">30</div>
+						<div class="stat-name text-left">People managed</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="stat-number stat-em text-left">$150 million</div>
+						<div class="stat-name text-left">Project budget</div>
+					</div>
+				</div>
+
+				<div class="row co-desc">
+					<div class="col-sm-offset-1 col-sm-10">
+						<!--
+						<blockquote>
+							<p>Philip is one of the most passionate and driven developers I have had the pleasure to work alongside. He is an individual who is naturally able to strike a balance between on-time delivery and building perfect software, meaning on-time deliveries and great software is what can be expected from him.</p>
+							<footer>David Snow, Manager, Director</footer>
+						</blockquote>
+						-->
+						<p>Built an oil, gas, and NGL logistics platform unparalleled in the industry</p>
+						<p>Lead two teams on the <em>Accounting</em> track to build end-cycle solutions that included:</p>
+						<ul>
+							<li>multi-stage billing pipelines capable on handling high throughput and complex distribution and contract billing scenarios;</li>
+							<li>an invoicing service with PDF generation capabilities triggered both near-real-time and on an advanced schedule matrix;</li>
+							<li>multi-level and multi-asset journal entry and end-of-month closing;</li>
+							<li>journal entry creation and integration of account codes with Oracle Financial;</li>
+							<li>ability to re-run and re-created historical billing scenarios.</li>
+						</ul>
+						<p>Led the <em>Measurements and Material Balance</em> team in designing and implementing  
+							a large data acquisition and processing module to handle measurement,
+							product movement across pipelines, storage, wells, tanking, chemical processing and calculations,
+                            as well as inventory, material balance, and over/short accounting.
+						</p>
+						<p>
+							Worked with business analysts to refine requirements and define scope; worked closely with QA to design testing plans and
+							ensure coverage; worked with business experts to clarify and distribute business knowledge across development teams.
+						</p>
+						<p>
+							Increased technology knowledge across the project through presentations, classes, technology demos, tooling and deep-knowledge
+							sharing.
+						</p>
+						<!--
+						<blockquote>
+							<p>Philip has a passion for his craft and his software is the evidence. Working with him was both influential and a good time due to his humor and on-demand critical thinking.</p>
+							<footer>Dustin Lyday, Software Engineer</footer>
+						</blockquote>
+						-->
+					</div>
+				</div>
+
+				<div class="row co-tech">
+					<div class="col-sm-offset-1 col-sm-10">
+						<span class="label label-primary">Oil, Gas, and NGLs Transportation</span>
+						<span class="label label-primary">Logistics</span>
+						<span class="label label-primary">Accounting</span>
+						<span class="label label-primary">Invoicing</span>
+						<span class="label label-primary">Measurements</span>
+						<span class="label label-primary">Material Balance</span>
+						<span class="label label-info">.NET 4.6</span>
+						<span class="label label-info">C# 6</span>
+						<span class="label label-info">ASP.NET MVC</span>
+						<span class="label label-info">ReST API</span>
+						<span class="label label-info">Messaging Architecture</span>
+						<span class="label label-default">Kendo UI</span>
+						<span class="label label-default">Knockout.js</span>
+						<span class="label label-default">Entity Framework</span>
+						<span class="label label-default">MS SQL Server</span>
+						<span class="label label-default">RabbitMQ</span>
+						<span class="label label-default">NServiceBus</span>
+					</div>
+				</div>
+			</div>
+
 			<div class="boa">
 				<div class="row co">
 					<div class="col-sm-3 years">
@@ -153,10 +248,21 @@
 							<li>designing and programming the most complex parts of the application; and,</li>
 							<li>providing design, programming, and testing guidance for the members of my team.</li>
 						</ul>
-						<p>We re-engineered the Trade Execution product from serving 2 commodities desks to 15 desks including natural gas, crude oil, power, coal, and base and precious metals. Originally implemented to serve the commodities traders in the Houston office, our changes allowed us to globally distribute the application to support the trade activity of both financial and physical instruments. At the end of my first contract, 80% of the company's trades were captured and routed through my team's app. 
-						This increased to 95% of market-facing trades, and 100% of the sales' trades (flow business) by the end of the second bout.</p>
-						<p>The application required integration with both upstream and downstream systems. We built a versatile and extensible integration framework to allow us to syndicate the users' application data to risk systems (including OpenLink Endur, SolArc, and CTP), pricing systems, market data (Index Online), and clearing houses (ICE, X-Trader, and Trayport). The integration framework also subscribed to changes in external systems using file system watchers, database pollers, and by subscribing to events over TIBCO Rendezvous. The direct result of these improvements allowed trade and sales desks to reduce their wait on the risk assessment of their positions from waiting on the next day's calculations to mere minutes.</p>
-						<p>The desktop client, written in C# and using Infragistics controls, replaced five other trade capture interfaces. We built our own WinForms-based MVVM UI framework, closely modeled after WPF's, to streamline the develop of a homogenized user interface. Due to my work on defining a set of consistent interface guidelines, the business realized a 3x performance increase in trade capture.</p>
+						<p>Re-engineered the Trade Execution product from serving 2 commodities desks to 15 desks including natural gas, crude oil,
+							power, coal, and base and precious metals. At the end of my first contract, 80% of the company's trades were captured and routed through
+							my team's app. This increased to 95% of market-facing trades, and 100% of the sales' trades (flow business) by the
+							end of the second bout.</p>
+						<p>We built a versatile and extensible
+							integration framework to allow us to syndicate the users' application data to risk systems (including OpenLink Endur,
+							SolArc, and CTP), pricing systems, market data (Index Online), and clearing houses (ICE, X-Trader, and Trayport).
+							The integration framework also subscribed to changes in external systems using file system watchers, database pollers,
+							and by subscribing to events over TIBCO Rendezvous. The direct result of these improvements allowed trade and sales
+							desks to reduce their wait on the risk assessment of their positions from waiting on the next day's calculations to
+							mere minutes.</p>
+						<p>The desktop client, written in C# and using Infragistics controls, replaced five other trade capture interfaces. We
+							built our own WinForms-based MVVM UI framework, closely modeled after WPF's, to streamline the develop of a homogenized
+							user interface. Due to my work on defining a set of consistent interface guidelines, the business realized a 3x performance
+							increase in trade capture.</p>
 						<blockquote>
 							<p>Philip has a passion for his craft and his software is the evidence. Working with him was both influential and a good time due to his humor and on-demand critical thinking.</p>
 							<footer>Dustin Lyday, Software Engineer</footer>
@@ -321,70 +427,44 @@
 				</div>
 			</div>
 
-			<div class="dc">
-				<div class="row co">
-					<div class="col-sm-3 years">
-						2006-2008
-					</div>
-					<div class="col-sm-5 co-name">DataCert</div>
-					<div class="col-sm-4 co-pos">Principal Developer</div>
-				</div>
-
-				<div class="row stat">
-					<div class="col-sm-offset-1 col-sm-2">
-						<div class="stat-number">92%</div>
-						<div class="stat-name text-left">of Global AmLaw 100</div>
-					</div>
-					<div class="col-sm-offset-1 col-sm-2">
-						<div class="stat-number stat-em">5,000,000</div>
-						<div class="stat-name text-left">Invoices processed</div>
-					</div>
-					<div class="col-sm-offset-1 col-sm-2">
-						<div class="stat-number">140</div>
-						<div class="stat-name text-left">Countries submitting</div>
-					</div>
-				</div>
-
-				<div class="row co-desc">
-					<div class="col-sm-offset-1 col-sm-10">
-						<p>I started as a Senior Software Engineered and evolved into a Principal Developer / Technical Architect position.</p>
-						<p>
-						We developed a web-based application that enabled our clients to keep a close eye on their legal spending, with a
-						particular eye towards outside law firms. The application had a clean UI and a very powerful custom-rule engine.
-						Due to privacy concerns, the application leaned towards being hosted with our clients; we worked hard towards
-						optimizing the performance so that it was very efficient even on less-than-ideal hardware.
-						</p>
-						<p>
-						I was responsible for architecture and mentoring not only within the confines of my own team, but also cross-teams.
-						I enjoyed refactoring old code and coding new features just the same. As part of my regular development duties, I interfaced
-						with our Client Services and Customer Support teams and was frequently involved in working directly with clients in
-						designing new features, customizing behavior of existing features, and troubleshooting installed application bases.
-						</p>
-					</div>
-				</div>
-
-				<div class="row co-tech">
-					<div class="col-sm-offset-1 col-sm-10">
-						<span class="label label-primary">Legal Spend Management</span>
-						<span class="label label-primary">Legal Matter Management</span>
-						<span class="label label-primary">Document Workflow</span>
-						<span class="label label-primary">Discovery &amp; Production Support</span>
-						<span class="label label-info">.NET</span>
-						<span class="label label-info">C#</span>
-						<span class="label label-info">Web</span>
-						<span class="label label-default">MS SQL Server</span>
-						<span class="label label-default">MS Reporting Services</span>
-						<span class="label label-default">MS SQL Server Analysis Services</span>
-						<span class="label label-default">Python</span>
-						<span class="label label-default">Django</span>
-					</div>
-				</div>
-			</div>
-
-
 			<div class="old">
 				<div class="row co"></div>
 				<div class="row">
+					<div class="col-sm-3">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h1 class="panel-title">DataCert</h1>
+								<h2 class="panel-subtitle">Team Co-Lead, Senior Software Engineer</h2>
+								<h2 class="panel-subtitle">2002-2006</h2>
+							</div>
+							<div class="panel-body">
+								<p>
+									Web-based application to manage legal spending in 92% of <em>Global AmLaw 100</em> companies.
+									Over 5,000,000 invoices processed, submitted from 140 countries.
+								</p>
+								<p>
+									Resposible for development, architecture, and mentoring within and cross-teams.
+									Interfaced with Client Services and Customer Support teams.
+								</p>
+								<div class="row co-tech">
+									<div class="col-sm-10">
+										<span class="label label-primary">Legal Spend Management</span>
+										<span class="label label-primary">Legal Matter Management</span>
+										<span class="label label-primary">Document Workflow</span>
+										<span class="label label-primary">Discovery &amp; Production Support</span>
+										<span class="label label-info">.NET</span>
+										<span class="label label-info">C#</span>
+										<span class="label label-info">Web</span>
+										<span class="label label-default">MS SQL Server</span>
+										<span class="label label-default">MS Reporting Services</span>
+										<span class="label label-default">MS SQL Server Analysis Services</span>
+										<span class="label label-default">Python</span>
+										<span class="label label-default">Django</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="col-sm-3">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -403,7 +483,6 @@
 										<span class="label label-default">.NET</span>
 										<span class="label label-default">PHP</span>
 										<span class="label label-default">JavaScript</span>
-										<span class="label label-default">Web</span>
 										<span class="label label-default">MS SQL Server</span>
 										<span class="label label-default">MySQL</span>
 									</div>
@@ -435,12 +514,12 @@
 					<div class="col-sm-3">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h1 class="panel-title">Akela</h1>
-								<h2 class="panel-subtitle">Team Lead</h2>
-								<h2 class="panel-subtitle">1998-2001</h2>
+								<h1 class="panel-title">Misc European Companies</h1>
+								<h2 class="panel-subtitle">Team Lead, Software Engineer</h2>
+								<h2 class="panel-subtitle">1996-2001</h2>
 							</div>
 							<div class="panel-body">
-								<p>Web Development using Microsoft technologies for an array of large European clients.</p>
+								<p>Web and desktop development using Microsoft technologies for an array of large European clients.</p>
 								<div class="row co-tech">
 									<div class="col-sm-10">
 										<span class="label label-default">.NET</span>
@@ -448,23 +527,6 @@
 										<span class="label label-default">Oracle</span>
 										<span class="label label-default">JavaScript</span>
 										<span class="label label-default">Web</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h1 class="panel-title">Crinsoft</h1>
-								<h2 class="panel-subtitle">Software Engineer</h2>
-								<h2 class="panel-subtitle">1996-1998</h2>
-							</div>
-							<div class="panel-body">
-								<p>Web and desktop development using Microsoft technologies.</p>
-								<div class="row co-tech">
-									<div class="col-sm-10">
-										<span class="label label-default">Microsoft Software Stack</span>
 									</div>
 								</div>
 							</div>
@@ -485,7 +547,7 @@
 							<h1 class="panel-title">BA, CS &amp; EE</h1>
 							<h2 class="panel-subtitle">Polytechnic University Bucharest</h2>
 						</div>
-						<div class="panel-body">From the prestigious College, Computer Science and Engineering in Bucharest, Romania.</div>
+						<div class="panel-body">From the prestigious College of Computer Science and Engineering in Bucharest, Romania.</div>
 						<div class="panel-footer">1994 &ndash; 1999</div>
 					</div>
 				</div>
