@@ -16,6 +16,9 @@ philip@variableconsulting.com
 * *30*: People managed across 3 teams
 * *$150 million*: Project budget
 
+> Philip is the Real Deal when it comes to software design experts.  
+-- John Bowlin, Senior Systems Specialist
+
 Built an oil, gas, and NGL logistics platform unparalleled in the industry
 
 Lead two teams on the *Accounting* track to build end-cycle solutions that included:
@@ -31,6 +34,9 @@ Led the *Measurements and Material Balance* team in designing and implementing a
 Worked with business analysts to refine requirements and define scope; worked closely with QA to design testing plans and ensure coverage; worked with business experts to clarify and distribute business knowledge across development teams.
 
 Increased technology knowledge across the project through presentations, classes, technology demos, tooling and deep-knowledge sharing.
+
+> Through coaching and mentoring and his individual contributions as a developer, Philip helped the team become one of the most productive teams on the project.  
+-- Richard Flores, Technical Director
 
 * Business Areas
     * Oil, Gas, and NGLs Transportation Logistics 
@@ -210,3 +216,15 @@ Web and desktop development using Microsoft technologies for an array of large E
 
 From the prestigious *College of Computer Science and Engineering* 
 of the *Polytechnic University Bucharest*, in Bucharest, Romania.
+
+## Data Science Certifications
+
+Curriculum developed and administered by Johns Hopkins University.  
+Presented on Coursera.
+
+* Practical Machine Learning
+* Exploratory Data Analysis
+* Statistical Inference
+* Regression Models
+* Developing Data Products
+* R Programming
