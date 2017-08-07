@@ -30,54 +30,59 @@
 				color: #888;
 			}
 			.co-desc { color: #333 !important; }
-			.epco { color: #002147; color: #00ccff; color: #5280b3 }
 
-			.epco { color: #184172; }
-			.epco .co { border-color: #184172 }
-			.epco .co-name {
-				background-color: #184172;
-				color: #fff;
+			/* rules for the company layout. variables overridden below, one at a time. */
+			.co { 
+				color: var(--co-color);
+				border-color: var(--co-color);
 			}
-			.epco .co-pos, .epco .years {}
-			.epco .stat-number { color: #5280b3 }
-			.epco .stat-number.stat-em { color: #184172 }
-			.epco .row.stat { 
-				background: url(resume-epco.png) repeat;
+			.co-name {
+				background-color: var(--co-color);
+				color: var(--co-anticolor);
 			}
-
-			.boa { color: #f00; }
-			.boa .co { border-color: #f00 }
-			.boa .co-name {
-				background-color: #f00;
-				color: #fff;
-			}
-			.boa .co-pos, .boa .years {}
-			.boa .stat-number { color: #f00 }
-			.boa .stat-number.stat-em { color: #0067B1 }
-			.boa .row.stat { 
-				background: url(resume-boa.png) repeat;
+			.co-pos, .epco .years {}
+			.stat-number { color: var(--stat-reg); }
+			.stat-number.stat-em { color: var(--stat-em); }
+			.row.stat { 
+				background: var(--bg-image) repeat;
 			}
 
-			.esi { color: #004793; }
-			.esi .co { border-color: #004793; }
-			.esi .co-name {
-				background-color: #004793;
-				color: #fff;
+			.epco { 
+				--co-color: #184172;
+				--co-anticolor: #fff;
+				--stat-reg: #5280b3;
+				--stat-em: #184172;
+				--bg-image: url(resume-epco.png);
 			}
-			.esi .co-pos, .esi .years {}
-			.esi .row.stat { background: url(resume-esi.png) repeat 0 10px; }
-			.esi .stat-number.stat-em { color: #f02d13; }
-
-			.bp { color: #007F00; }
-			.bp .co { border-color: #007F00; }
-			.bp .co-name {
-				background-color: #007F00;
-				color: #fff;
+			.boa {
+				--co-color: #f00;
+				--co-anticolor: #fff;
+				--stat-reg: #f00;
+				--stat-em: #0067B1;
+				--bg-image: url(resume-boa.png);
 			}
-			.bp .co-pos, .bp .years {}
-			.bp .row.stat { background: url(resume-bp.jpg) repeat; }
-			.bp .stat-number { color: #98ce00; }
-			.bp .stat-em { color: #007F00; }
+			.esi {
+				--co-color: #004793;
+				--co-anticolor: #fff;
+				--stat-reg: var(--co-color);
+				--stat-em: #f02d13;
+				--bg-image: url(resume-esi.png);
+			}
+			.esi .row.stat { background: var(--bg-image) repeat 0 10px; }
+			.bp {
+				--co-color: #007F00;
+				--co-anticolor: #fff;
+				--stat-reg: #98ce00;
+				--stat-em: var(--co-color);
+				--bg-image: url(resume-bp.jpg);
+			}
+			.old {
+				--co-color: #888;
+				--co-anticolor: #000;
+				--stat-reg: #666;
+				--stat-em: #333;
+				--bg-image: url(resume-dc.jpg);
+			}
 
 			.old { color: #888; page-break-before: auto; }
 			.old .co-name {
