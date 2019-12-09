@@ -34,6 +34,7 @@
 				margin: 0 0 5px;
 				line-height: 1.2;
 			}
+			.co-name { display: table-cell !important;}
 
 			/* rules for the company layout. variables overridden below, one at a time. */
 			.position .co { 
@@ -51,6 +52,13 @@
 				background: var(--bg-image) repeat;
 			}
 
+			.anthem { 
+				--co-color: rgb(10,117,187);
+				--co-anticolor: #fff;
+				--stat-reg: rgb(54,119,180);
+				--stat-em: #e82d05;
+				--bg-image: url(resume-anthem.png);
+			}
 			.epco { 
 				--co-color: #184172;
 				--co-anticolor: #fff;
@@ -93,6 +101,26 @@
 			.projects .panel-body{
 				background-color: #fff;
 			}
+			@media print {
+			.old, .position { page-break-before: auto; }
+				.container { width: 100% !important; }
+				.stat-number { font-size: 150%; }
+				.co-desc .p { font-size: 10px !important; }
+				.col-sm-1,
+				.col-sm-2,
+				.col-sm-3,
+				.col-sm-4,
+				.col-sm-5,
+				.col-sm-6,
+				.col-sm-7,
+				.col-sm-8,
+				.col-sm-9,
+				.col-sm-10,
+				.col-sm-11,
+				.col-sm-12 {
+				float: left;
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -124,13 +152,103 @@
 				</div>
 			</div>
 
+			<div class="anthem position">
+				<div class="row co">
+					<div class="col-sm-2 years">
+						2017-
+					</div>
+					<div class="col-sm-5 co-name">Anthem, Inc</div>
+					<div class="col-sm-5 co-pos">Technical Consultant &amp; Architect</div>
+				</div>
+
+				<div class="row stat">
+					<div class="col-sm-offset-1 col-sm-2">
+						<div class="stat-number text-left">5</div>
+						<div class="stat-name text-left">Projects</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="stat-number text-left">900k+</div>
+						<div class="stat-name text-left">Documents generated</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="stat-number text-left">870,000</div>
+						<div class="stat-name text-left">Insurance groups</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="stat-number stat-em text-left">67,000,000+</div>
+						<div class="stat-name text-left">Members</div>
+					</div>
+				</div>
+
+				<div class="row co-desc">
+					<div class="col-sm-offset-1 col-sm-10">
+						<p>Worked across multiple projects in support of the largest health insurance company in US:</p>
+						<ul>
+							<li>Migration of over 67,000,000 members across 870,000 insurance groups from one Plan Benefit Manager (EasyScripts) to another (CVSHealth);</li>
+							<li>Near real-time dynamic document generation for multiple lines of business: Medicare, Medicaid, and Commercial;</li>
+							<li>Automation of pharmacy eligibility and plan benefit validation;</li>
+							<li>Central management of corporate branding and identity for subsidiaries and external partners;</li>
+							<li>Next-gen cross-corporate framework for rapid application development.</li>
+						</ul>
+						<p>
+							Interacted with clients and external partners in order to assess scope and determine
+							the approaches that provided the best value for all parties involved;
+							provided technical know-how and hands-on coding on all projects I was involved;
+							helped bridge business expert knowledge and QA methodologies in order
+							to ensure end-to-end coverage of functionality;
+							worked diligently to implement coding best-practices,
+							security enterprise standards, as well as meet throughput metrics.
+						</p>
+						<p>Assisted with the largest member migration in the healthcare sector,
+							impacting over 67 million members across over 870 thousand insurance groups.
+							Wrote the rule engine that determined each migration wave's composition
+							and metadata, and worked with source membership systems, mainframe
+							and data warehouse teams to appropriately ingest and transition information to the eventual
+							Plan Benefit Manager of choice.
+						</p>
+						<p>
+							Offered technical leadership to an internal document generation system,
+							aiming to move the company away from existing solutions and provide
+							near real-time results in production, previous, and transmission of template-based
+							(mail-merge) documents to one of three destinations: physical mail,
+							fax, or e-mail.
+						</p>
+					</div>
+				</div>
+
+				<div class="row co-tech">
+					<div class="col-sm-offset-1 col-sm-10">
+						<span class="label label-primary">Healthcare</span>
+						<span class="label label-primary">Pharmacy</span>
+						<span class="label label-primary">PBM - Plan Benefit Management</span>
+						<span class="label label-primary">ETL and Data Migrations</span>
+						<span class="label label-info">.NET Core 2.2</span>
+						<span class="label label-info">.NET 4.6</span>
+						<span class="label label-info">C# 7</span>
+						<span class="label label-info">ASP.NET Core</span>
+						<span class="label label-info">ReST API</span>
+						<span class="label label-info">Java Spring</span>
+						<span class="label label-info">Amazon AWS</span>
+						<span class="label label-default">Angular 7</span>
+						<span class="label label-default">Quartz.NET</span>
+						<span class="label label-default">HangFire</span>
+						<span class="label label-default">Entity Framework Core</span>
+						<span class="label label-default">Dapper</span>
+						<span class="label label-default">MS SQL Server</span>
+						<span class="label label-default">Teradata</span>
+						<span class="label label-default">MongoDB</span>
+						<span class="label label-default">RightFax Gateway</span>
+					</div>
+				</div>
+			</div>
+
 			<div class="epco position">
 				<div class="row co">
-					<div class="col-sm-3 years">
+					<div class="col-sm-2 years">
 						2014-2017
 					</div>
 					<div class="col-sm-5 co-name">Enterprise Products</div>
-					<div class="col-sm-4 co-pos">Technical Lead</div>
+					<div class="col-sm-5 co-pos">Technical Lead</div>
 				</div>
 
 				<div class="row stat">
@@ -216,8 +334,8 @@
 					<div class="col-sm-3 years">
 						2009-2011 2012-2014 
 					</div>
-					<div class="col-sm-5 co-name">Bank of America Merrill Lynch</div>
-					<div class="col-sm-4 co-pos">Technical Lead</div>
+					<div class="col-sm-4 co-name">Bank of America Merrill Lynch</div>
+					<div class="col-sm-5 co-pos">Technical Lead</div>
 				</div>
 
 				<div class="row stat">
@@ -263,17 +381,6 @@
 							80% of the company's trades were captured and routed through
 							my team's app. This increased to 95% of market-facing trades, and 100% of the sales' trades (flow business) by the
 							end of the second bout.</p>
-						<p>We built a versatile and extensible
-							integration framework to allow us to syndicate the users' application data to risk systems (including OpenLink Endur,
-							SolArc, and CTP), pricing systems, market data (Index Online), and clearing houses (ICE, X-Trader, and Trayport).
-							The integration framework also subscribed to changes in external systems using file system watchers, database pollers,
-							and by subscribing to events over TIBCO Rendezvous. The direct result of these improvements allowed trade and sales
-							desks to reduce their wait on the risk assessment of their positions from waiting on the next day's calculations to
-							mere minutes.</p>
-						<p>The desktop client, written in C# and using Infragistics controls, replaced five other trade capture interfaces. We
-							built our own WinForms-based MVVM UI framework, closely modeled after WPF's, to streamline the develop of a homogenized
-							user interface. Due to my work on defining a set of consistent interface guidelines, the business realized a 3x performance
-							increase in trade capture.</p>
 						<blockquote>
 							<p>Philip has a passion for his craft and his software is the evidence.
 								Working with him was both influential and a good time due to his humor and on-demand critical thinking.</p>
@@ -308,11 +415,11 @@
 
 			<div class="esi position">
 				<div class="row co">
-					<div class="col-sm-3 years">
+					<div class="col-sm-2 years">
 						2012
 					</div>
 					<div class="col-sm-5 co-name">Energy Solutions International</div>
-					<div class="col-sm-4 co-pos">Senior Software Consultant</div>
+					<div class="col-sm-5 co-pos">Senior Software Consultant</div>
 				</div>
 
 				<div class="row stat">
@@ -342,22 +449,6 @@
 							energy-trading platform.
 							This moved the product from an application with high maintenance costs to
 							a powerful, fast, scalable, and customizable Web-based application.</p>
-						<p>I made a good-looking UI too.</p>
-						<p>We designed the web application platform from the ground-up to function
-							as a public ReSTful API communicating with the JSON message format into
-							a pluggable back-end business and persistence layer built with ASP.NET MVC.
-							This allowed us to independently and simultaneously develop the
-							HTML+Bootstrap+jQuery+Kendo-based user interface of the products
-							and the business rules engine that provided the commercial value of the products.</p>
-						<p>Applying SOLID design principles to the software allowed us to achieve a
-							high level of automated test coverage across UI (JavaScript),
-							API boundary, and internal business layer.
-							As a direct result of this well-tested, high-coverage code,
-							ESI could bring in expert teams for very concentrated development efforts
-							while having a high degree of confidence that the new code would
-							not negatively affect existing functionality.
-							It also ensured that core development would not break
-							the features developed by these expert teams.</p>
 						<blockquote>
 							<p>Philip is inventive, diligent, and strives to improve his craft.
 								I was constantly impressed by Philip's insights and his ability
@@ -394,11 +485,11 @@
 			<div class="bp position">
 				<div class="row co">
 
-					<div class="col-sm-3 years">
+					<div class="col-sm-2 years">
 						2008-2009
 					</div>
 					<div class="col-sm-5 co-name">BP</div>
-					<div class="col-sm-4 co-pos">Senior Software Consultant</div>
+					<div class="col-sm-5 co-pos">Senior Software Consultant</div>
 				</div>
 
 				<div class="row stat">
@@ -420,21 +511,9 @@
 				<div class="row co-desc">
 					<div class="col-sm-offset-1 col-sm-10">
 						<p>
-						I worked on a large-scoped Gas Trading System for the North America Gas &amp; Power division, 
-						in particular on a comprehensive yet very flexible gas nominations module where I contributed to all major modules and sub-systems.
-						I championed the use of unit-testing and consistently had the highest code coverage in my team.
-						I introduced the team to design patterns and worked with individual team members
-						to improve the abstraction levels and reduce the coupling levels of the code they 
-						were tasked with.
+						Gas Trading System for the North America Gas &amp; Power division, 
+						in particular a comprehensive yet very flexible gas nominations module.
 						</p>
-						<p>
-						I interfaced with teams working on connecting modules (scheduling, settlements) on integration points
-						with the nominations module. As a result of my engineering skills, I was often loaned-out to other
-						teams to assist with performance troubleshooting, advanced development efforts, and UI design.
-						</p>
-
-						<p>In recognition of the quality of work performed, I was often asked to engineer, develop and provide 
-						architectural proof of concepts for next-gen solutions.</p>
 					</div>
 				</div>
 
@@ -461,11 +540,11 @@
 			<div class="old position">
 				<div class="row co">
 
-					<div class="col-sm-3 years">
+					<div class="col-sm-2 years">
 						1996-2008
 					</div>
 					<div class="col-sm-5 co-name">Miscelaneous Companies</div>
-					<div class="col-sm-4 co-pos">Senior Software Engineer &amp; Consultant</div>
+					<div class="col-sm-5 co-pos">Senior Software Engineer &amp; Consultant</div>
 				</div>
 
 				<div class="row co-desc">
@@ -473,7 +552,7 @@
 						<p>
 							I developed web and desktop application for clients 
 							in numerous fields &mdash; from legal, to banking, to media companies,
-							to goverment agencies &mdash;
+							to government agencies &mdash;
 							in US and in multiple European countries.
 						</p>
 					</div>

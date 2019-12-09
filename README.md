@@ -9,6 +9,52 @@ Philip Mateescu
 [philipm.at](http://philipm.at) |
 philip@variableconsulting.com 
 
+## Technical Lead, Architect & Consultant and Anthem, Inc (2017-)
+
+* 5 Projects
+* 900k+ Documents generated
+* 870,000 Insurance groups
+* 67,000,000+ Members
+
+Worked across multiple projects in support of the largest health insurance company in US:
+
+* Migration of over 67,000,000 members across 870,000 insurance groups from one Plan Benefit Manager (EasyScripts) to another (CVSHealth);
+* Near real-time dynamic document generation for multiple lines of business: Medicare, Medicaid, and Commercial;
+* Automation of pharmacy eligibility and plan benefit validation;
+* Central management of corporate branding and identity for subsidiaries and external partners;
+* Next-gen cross-corporate framework for rapid application development.
+
+Interacted with clients and external partners in order to assess scope and determine the approaches that provided the best value for all parties involved; provided technical know-how and hands-on coding on all projects I was involved; helped bridge business expert knowledge and QA methodologies in order to ensure end-to-end coverage of functionality; worked diligently to implement coding best-practices, security enterprise standards, as well as meet throughput metrics.
+
+Assisted with the largest member migration in the healthcare sector, impacting over 67 million members across over 870 thousand insurance groups. Wrote the rule engine that determined each migration wave's composition and metadata, and worked with source membership systems, mainframe and data warehouse teams to appropriately ingest and transition information to the eventual Plan Benefit Manager of choice.
+
+Offered technical leadership to an internal document generation system, aiming to move the company away from existing solutions and provide near real-time results in production, previous, and transmission of template-based (mail-merge) documents to one of three destinations: physical mail, fax, or e-mail.
+
+* Business Areas
+  - Healthcare
+  - Pharmacy
+  - PBM - Plan Benefit Management
+  - ETL and Data Migrations
+* Technology
+  - .NET Core 2.2
+  - .NET 4.6
+  - C# 7
+  - ASP.NET Core
+  - ReST API
+  - Java Spring
+  - Amazon AWS
+* Frameworks & Toolkits
+  - Angular 7
+  - Quartz.NET
+  - HangFire
+  - Entity Framework Core
+  - Dapper
+  - MS SQL Server
+  - Teradata
+  - MongoDB
+  - RightFax
+  - Gateway 
+
 ## Technical Lead at Enterprise Products (2014-2017)
 
 * *3.8M*: Lines of code (LOC) across 6 languages
