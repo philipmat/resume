@@ -9,16 +9,16 @@ Philip Mateescu
 [philipm.at](http://philipm.at) |
 philip@variableconsulting.com 
 
-## Technical Lead, Architect & Consultant and Anthem, Inc (2017-)
+## Technical Lead, Architect & Consultant and Anthem, Inc (2017-2020)
 
-* 5 Projects
+* 6 Projects
 * 900k+ Documents generated
 * 870,000 Insurance groups
 * 67,000,000+ Members
 
 Worked across multiple projects in support of the largest health insurance company in US:
 
-* Migration of over 67,000,000 members across 870,000 insurance groups from one Plan Benefit Manager (EasyScripts) to another (CVSHealth);
+* Migration of over 67 million members across 870,000 insurance groups from one Plan Benefit Manager (EasyScripts) to another (CVSHealth);
 * Near real-time dynamic document generation for multiple lines of business: Medicare, Medicaid, and Commercial;
 * Automation of pharmacy eligibility and plan benefit validation;
 * Central management of corporate branding and identity for subsidiaries and external partners;
@@ -36,24 +36,25 @@ Offered technical leadership to an internal document generation system, aiming t
   - PBM - Plan Benefit Management
   - ETL and Data Migrations
 * Technology
-  - .NET Core 2.2
-  - .NET 4.6
-  - C# 7
+  - .NET Core 2.1 - 5.0
+  - .NET Framework
+  - C# 7 - 9
   - ASP.NET Core
   - ReST API
   - Java Spring
   - Amazon AWS
 * Frameworks & Toolkits
+  - Amazon Lambda
+  - Amazon Glue
   - Angular 7
-  - Quartz.NET
-  - HangFire
+  - Quartz.NET and HangFire
   - Entity Framework Core
   - Dapper
   - MS SQL Server
+  - Amazon Redshift
   - Teradata
   - MongoDB
-  - RightFax
-  - Gateway 
+  - RightFax Gateway
 
 ## Technical Lead at Enterprise Products (2014-2017)
 
